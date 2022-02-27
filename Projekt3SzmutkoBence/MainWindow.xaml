@@ -1,0 +1,15 @@
+﻿<Window x:Class="Projekt3SzmutkoBence.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projekt3SzmutkoBence"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox x:Name="temaValasztas" HorizontalAlignment="Center" Height="58" VerticalAlignment="Center" Width="324"/>
+        <Label Content="Válassz egy témát: &lt;3" HorizontalAlignment="Left" Height="60" Margin="234,53,0,0" VerticalAlignment="Top" Width="354" FontSize="36"/>
+        <Button x:Name="megerosites" Content="Megerősítés" HorizontalAlignment="Center" Height="52" Margin="0,300,0,0" VerticalAlignment="Top" Width="262" Click="megerosites_Click"/>
+        
+    </Grid>
+</Window>
