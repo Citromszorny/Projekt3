@@ -11,11 +11,11 @@
             <RowDefinition Height="41*"/>
             <RowDefinition Height="21*"/>
         </Grid.RowDefinitions>
-        <CheckBox x:Name="valasz1" Content="CheckBox" HorizontalAlignment="Left" Height="75" Margin="46,180,0,0" VerticalAlignment="Top" Width="354"/>
-        <CheckBox x:Name="valasz2" Content="CheckBox" HorizontalAlignment="Left" Height="75" Margin="429,180,0,0" VerticalAlignment="Top" Width="336" Checked="valasz2_Checked"/>
-        <CheckBox x:Name="valasz3" Content="CheckBox" HorizontalAlignment="Left" Height="75" Margin="46,16,0,0" VerticalAlignment="Top" Width="354" Grid.Row="1"/>
-        <CheckBox x:Name="valasz4" Content="CheckBox" HorizontalAlignment="Left" Height="75" Margin="429,16,0,0" VerticalAlignment="Top" Width="336" Grid.Row="1"/>
         <Label x:Name="KerdesLabel" Content="" HorizontalAlignment="Left" Height="105" Margin="33,39,0,0" VerticalAlignment="Top" Width="720"/>
+        <Button x:Name="valasz1" Content="Button" HorizontalAlignment="Left" Height="75" Margin="46,180,0,0" VerticalAlignment="Top" Width="347" Click="valasz1_Click"/>
+        <Button x:Name="valasz2" Content="Button" HorizontalAlignment="Left" Height="75" Margin="429,180,0,0" VerticalAlignment="Top" Width="336" Click="valasz2_Click"/>
+        <Button x:Name="valasz3" Content="Button" HorizontalAlignment="Left" Height="81" Margin="46,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="347" Click="valasz3_Click"/>
+        <Button x:Name="valasz4" Content="Button" HorizontalAlignment="Left" Height="81" Margin="429,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="336" Click="valasz4_Click"/>
 
     </Grid>
 </Window>

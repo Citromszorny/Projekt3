@@ -55,6 +55,7 @@ namespace Projekt3SzmutkoBence
             {
                 return;
             }
+            //List<Kerdes> betoltottKerdesek = Kerdesek.FindAll(k => k.temakor == selectedTema);
             Window1 win2 = new Window1(Kerdesek, selectedTema);
             win2.Show();
             this.Close();

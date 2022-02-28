@@ -25,14 +25,63 @@ namespace Projekt3SzmutkoBence
         {
             InitializeComponent();
             this.Kerdesek = Kerdesek;
-            Kerdesek.FindAll(k => k.temakor == tema);
+            
             KerdesLabel.Content = Kerdesek[0].kerdes;
-          
+            valasz1.Content = Kerdesek[0].valaszok[0];
+            valasz2.Content = Kerdesek[0].valaszok[1];
+            valasz3.Content = Kerdesek[0].valaszok[2];
+            valasz4.Content = Kerdesek[0].valaszok[3];
+
         }
 
-        private void valasz2_Checked(object sender, RoutedEventArgs e)
-        {
 
+
+        private void valasz1_Click(object sender, RoutedEventArgs e)
+        {
+            if (valasz1.Content == Kerdesek[0].helyesValasz)
+            {
+                valasz1.Background = Brushes.Green;
+            }
+            else
+            {
+                valasz1.Background = Brushes.Red;
+            }
+        }
+
+        private void valasz2_Click(object sender, RoutedEventArgs e)
+        {
+            if (valasz2.Content == Kerdesek[0].helyesValasz)
+            {
+                valasz2.Background = Brushes.Green;
+            }
+            else
+            {
+                valasz2.Background = Brushes.Red;
+            }
+        }
+
+        private void valasz3_Click(object sender, RoutedEventArgs e)
+        {
+            if (valasz3.Content == Kerdesek[0].helyesValasz)
+            {
+                valasz3.Background = Brushes.Green;
+            }
+            else
+            {
+                valasz3.Background = Brushes.Red;
+            }
+        }
+
+        private void valasz4_Click(object sender, RoutedEventArgs e)
+        {
+            if (valasz4.Content == Kerdesek[0].helyesValasz)
+            {
+                valasz4.Background = Brushes.Green;
+            }
+            else
+            {
+                valasz4.Background = Brushes.Red;
+            }
         }
     }
 }
