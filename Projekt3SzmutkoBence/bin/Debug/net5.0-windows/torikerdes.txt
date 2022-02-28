@@ -1,0 +1,45 @@
+Történelem;Melyik évben volt a rendszerváltás?;1;1989;1990;1991;1992
+Történelem;Mikor halt ki az Árpád-ház?;2;2015;1301;5888;8444
+Történelem;Mikor irtuk alá a világosi fegyverletételt?;3;1877;5477;1849;3999
+Történelem;Mikor volt mohamed futása?;3;1445;2000;622;1430
+Történelem;Mikortól uralkodott Könyves Kálmán?;2;1301;1095;1423;1512
+Történelem;Mikor lett vége a százéves háborúnak?;4;1467;1875;1222;1453
+Történelem;Mikor adták ki az aranybullát?;1;1222;1333;1444;1555
+Történelem;Mikor volt a mohácsi vész?;1;1526;1662;1265;1565
+Történelem;Mikor esett el Szigetvár?;2;1556;1566;1324;1567
+Történelem;Mikor kezdődött az osztrák örökösödési háború?;1;1740;1467;1700;1800
+Történelem;Mikor volt Buda felszabadítása?;1;1686;1700;1401;1567
+Történelem;Mikor volt az amerikai polgárháború kezdete?;1;1861;1866;1867;1888
+Történelem;Mikor építették a Berlini falat?;1;1961;1957;1963;1888
+Történelem;Mikor volt a prágai tavasz?;1;1968;1963;1947;1985
+Történelem;Mikor halt meg Sztálin?;1;1953;1957;1968;1989
+Matematika;Mennyi szinusz 90°?;1;1;0;-1;-
+Matematika;Mennyi szinusz 270°?;1;-1;1;0;-
+Matematika;Mennyi tangens 45°?;1;1;2;3;0
+Matematika;Mennyi coszinusz 180°?;1;-1;1;0;-
+Matematika;Mennyi coszinusz 360°?;1;1;-1;0;-
+Matematika;Mennyi tangens 90°?;2;1;-;0;2
+Matematika;Mennyi 5+5?;1;10;11;15;20
+Matematika;Mennyi 3(2+2)?;1;12;13;14;15
+Matematika;Mennyi az x az alábbi egyenletben: 8(x+2)+3(x+5)=x+121?;1;x=9;x=3;x=8;x=0
+Matematika;Mennyi négyzetgyök alatt a 121?;1;11;12;13;10
+Matematika;Mennyi a -8 abszolút értéke?;1;8;9;10;-8
+Matematika;Mennyi cotangens 45°?;1;1;2;3;-1
+Matematika;Mennyi 1+1?;2;5;2;3;8
+Matematika;Mennyi -2-(-5)?;1;3;-3;2;-2
+Matematika;Hol van a szinusz alapfüggvény zérushelye?;1;0+k*π;π/2+k*π;π+k*π;π/4+k*π
+Irodalom;Mikor született Ady Endre?;1;1877;1888;1899;1898
+Irodalom;Mikor halt meg Ady Endre?;1;1919;1920;1921;1922
+Irodalom;Mikor jött ki az Új versek című kötete?;1;1906;1909;1907;1908
+Irodalom;Mikor született Babits Mihály?;1;1883;1889;1896;1824
+Irodalom;Mikor halt meg Babits Mihály?;1;1941;1955;1999;2001
+Irodalom;Mikor született Csehov?;1;1860;1862;1866;1899
+Irodalom;Mikor halt meg Csehov?;1;1904;1908;1999;1985
+Irodalom;Mi volt az egyik leghíresebb színdarabja?;1;Sirály;Papagáj;Bölömbika;Varjú
+Irodalom;Mikor született Madách Imre?;1;1823;1999;1578;1953
+Irodalom;Mikor halt meg Madách Imre?;1;1864;1999;1957;1879
+Irodalom;Mikor alapították meg a Nyugatot?;1;1908;1941;1988;1956
+Irodalom;Mikor szűnt meg a Nyugat?;2;1908;1941;1956;1988
+Irodalom;Mikor született Petőfi Sándor?;1;1823;1848;1849;1850
+Irodalom;Mikor halt meg Petőfi Sándor?;1;1849;1867;1862;1856
+Irodalom;Mikor jelent meg a Nemzeti Dal?;1;1848;1849;1850;1847

@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\AMD FX\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\AMD FX\\.nuget\\packages"
+    ]
+  }
+}
