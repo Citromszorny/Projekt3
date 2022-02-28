@@ -24,13 +24,28 @@ namespace Projekt3SzmutkoBence
         public Window1(List<Kerdes> Kerdesek, string tema)
         {
             InitializeComponent();
+            Random rnd = new Random();
+            List<int> lista = new List<int>();
+            while (lista.Count < 4)
+            {
+                int szam = rnd.Next(0, 4);
+                if (lista.Contains(szam))
+                {
+                    
+                }
+                else
+                {
+                    lista.Add(szam);
+                }
+                
+            }
             this.Kerdesek = Kerdesek;
             
             KerdesLabel.Content = Kerdesek[0].kerdes;
-            valasz1.Content = Kerdesek[0].valaszok[0];
-            valasz2.Content = Kerdesek[0].valaszok[1];
-            valasz3.Content = Kerdesek[0].valaszok[2];
-            valasz4.Content = Kerdesek[0].valaszok[3];
+            valasz1.Content = Kerdesek[0].valaszok[lista[0]];
+            valasz2.Content = Kerdesek[0].valaszok[lista[1]];
+            valasz3.Content = Kerdesek[0].valaszok[lista[2]];
+            valasz4.Content = Kerdesek[0].valaszok[lista[3]];
 
         }
 

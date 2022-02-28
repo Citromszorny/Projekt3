@@ -20,7 +20,7 @@ namespace Projekt3SzmutkoBence
             this.kerdes = kerdes;
             this.valaszok = valaszok;
             this.valasz = valasz;
-            helyesValasz = valaszok[0];
+            helyesValasz = valaszok[valasz - 1];
 
         }
     }
