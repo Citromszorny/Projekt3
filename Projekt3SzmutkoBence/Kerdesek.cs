@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projekt3SzmutkoBence
 {
-    class Kerdes
+     public class Kerdes
     {
         public string temakor { get; }
         public string kerdes { get; }

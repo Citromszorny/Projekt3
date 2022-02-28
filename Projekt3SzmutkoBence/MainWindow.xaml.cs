@@ -22,6 +22,7 @@ namespace Projekt3SzmutkoBence
     public partial class MainWindow : Window
     {
         List<Kerdes> Kerdesek = new List<Kerdes>();
+        public string selectedTema;
         public MainWindow()
         {
             InitializeComponent();
@@ -40,7 +41,7 @@ namespace Projekt3SzmutkoBence
                 }
                 Kerdesek.Add(new Kerdes(temakor, kerdes, valaszok, helyesValasz));
             }
-
+            
             temaValasztas.Items.Add("Történelem");
             temaValasztas.Items.Add("Matematika");
             temaValasztas.Items.Add("Irodalom");
@@ -50,14 +51,18 @@ namespace Projekt3SzmutkoBence
 
         private void megerosites_Click(object sender, RoutedEventArgs e)
         {
-            Window1 win2 = new Window1();
+            if (temaValasztas.SelectedItem == null)
+            {
+                return;
+            }
+            Window1 win2 = new Window1(Kerdesek, selectedTema);
             win2.Show();
             this.Close();
         }
 
         private void temaValasztas_Selected(object sender, RoutedEventArgs e)
         {
-            
+            selectedTema = temaValasztas.SelectedItem.ToString();
         }
     }
 }

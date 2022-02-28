@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace Projekt3SzmutkoBence
 {
@@ -19,9 +20,19 @@ namespace Projekt3SzmutkoBence
     /// </summary>
     public partial class Window1 : Window
     {
-        public Window1()
+        List<Kerdes> Kerdesek;
+        public Window1(List<Kerdes> Kerdesek, string tema)
         {
             InitializeComponent();
+            this.Kerdesek = Kerdesek;
+            Kerdesek.FindAll(k => k.temakor == tema);
+            KerdesLabel.Content = Kerdesek[0].kerdes;
+          
+        }
+
+        private void valasz2_Checked(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
